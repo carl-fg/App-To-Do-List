@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*, :before, :after {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  color: #222;
+}
+
+button, input, textarea {
+  outline: none;
+}
+
+a {
+  color: #0d82f0;
+  text-decoration: none;
+}
+
+.container {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 10rem;
+}
+.container .container_title {
+  font-weight: 600;
+}
+.container form {
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.container form .field {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.container form .field .label {
+  font-weight: bold;
+}
+.container form .field .input {
+  width: 75%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #222;
+}
+.container form .field .textarea {
+  width: 75%;
+  border-radius: 5px;
+  padding: 1rem 0.5rem;
+  border: 1px solid #222;
+}
+.container form .button_container .button {
+  border: none;
+  color: #f1f1f1;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background-color: #1f73e0;
+}
+
+/*# sourceMappingURL=App.css.map */

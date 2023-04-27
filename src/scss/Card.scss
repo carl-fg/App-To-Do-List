@@ -1,0 +1,37 @@
+@import '../scss/imports/variables.scss';
+@import '../scss//imports/mixins.scss';
+
+// CARD
+
+.card{
+    gap: 1rem;
+    width: 75%;
+    @include flexcol;
+    padding: 2rem;
+    position: relative;
+    background-color: #2bb4b4;
+
+    .card_text{
+        opacity: .9;
+    }
+
+    .card_btn_delete{
+        top: 50%;
+        right: 2rem;
+        width: 2rem;
+        height: 2rem;
+        border: none;
+        color: $white;
+        cursor: pointer;
+        @include flexmid;
+        border-radius: 50%;
+        position: absolute;
+        transform: translate(0, -50%);
+        transition: background-color .2s ease;
+        background-color: rgba(0, 0, 0, .3);
+
+        &:hover{
+            background-color: rgba(0, 0, 0, .6);
+        }
+    }
+}

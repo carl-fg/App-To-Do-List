@@ -1,0 +1,21 @@
+// CENTRER AVEC FLEXBOX
+@mixin flexmid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// METTRE EN COLONNE AVEC FLEXBOX
+@mixin flexcol{
+    display: flex;
+    flex-direction: column;
+}
+
+// CENTRER AVEC POSITION ABSOLUTE
+
+@mixin posmid{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
