@@ -14,6 +14,8 @@ Open the terminal of your IDE (on VSC by pressing CTRL + ù or by clicking on "T
 
 Once the terminal is open you just have to write the following command: npm start
 
+You need Node JS to install on your computer: https://nodejs.org/en
+
 ### `Reminder`
 
 It is important to remember that to execute this command you must open the folder corresponding to this project.
