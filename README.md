@@ -1,19 +1,19 @@
 # App To Do List
 
-Ce projet a été réalisé par C®#4987 avec le framework [React](https://fr.legacy.reactjs.org/).
+This project was realized by C®#4987 with the [React] framework (https://fr.legacy.reactjs.org/).
 
-## Comment lancer le projet
+## How to launch the project ?
 
-Ouvrez le dossier dans votre IDE (Visual Studio Code par-exemple) puis suivez les instructions ci-dessous :
+Open the folder in your IDE (Visual Studio Code for example) and follow the instructions below:
 
-### `Le terminal`
+### `The command prompt`
 
-Ouvrez le terminal de votre IDE (sur VSC en appuyant sur CTRL + ù ou en cliquant sur "Terminal" puis sur "Nouveau terminal")
+Open the terminal of your IDE (on VSC by pressing CTRL + ù or by clicking on "Terminal" and then on "New terminal")
 
-### `La commande`
+### `The command`
 
-Une fois le terminal ouvert il vous suffit juste d'écrire la commande suivante : npm start
+Once the terminal is open you just have to write the following command: npm start
 
-### `Rappel`
+### `Reminder`
 
-Il est important de rappeller que pour executer cette commande il faut bien que vous ouvrez le dossier correspondant à ce projet.
+It is important to remember that to execute this command you must open the folder corresponding to this project.
