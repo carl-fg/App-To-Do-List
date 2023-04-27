@@ -1,6 +1,6 @@
 # App To Do List
 
-This project was realized by C®#4987 with the [React] framework (https://fr.legacy.reactjs.org/).
+This project was realized by C®#4987 with the React JS framework (https://fr.legacy.reactjs.org/).
 
 ## How to launch the project ?
 
